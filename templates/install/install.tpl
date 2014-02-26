@@ -66,7 +66,7 @@ function doSubmit() {
 	<tr valign="top">
 		<td width="20%" class="label">{fieldLabel name="locale" key="locale.primary"}</td>
 		<td width="80%" class="value">
-			<select name="locale" id="locale" size="1" class="selectMenu">
+			<select name="locale" id="locale" size="1" class="selectMenu" title="Select Language">
 				{html_options options=$localeOptions selected=$locale}
 			</select>
 			<br />
